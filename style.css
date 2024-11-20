@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* Form Container */
+form {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Form Heading */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form Labels */
+label {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Form Input Fields */
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #fafafa;
+}
+
+/* Text Area */
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Patient Card Container */
+.patient-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin: 10px 0;
+    transition: transform 0.2s;
+}
+
+.patient-card:hover {
+    transform: scale(1.02);
+}
+
+/* Patient Card Header */
+.patient-card h3 {
+    color: #00796b;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #00796b;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+/* Patient Details */
+.patient-card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 8px 0;
+}
+
+/* Emphasis on labels in patient details */
+.patient-card p strong {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Action Button Style for Delete Link */
+.action-link {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.action-link:hover {
+    color: #c0392b;
+}
